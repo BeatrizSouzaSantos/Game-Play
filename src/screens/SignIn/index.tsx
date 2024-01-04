@@ -18,7 +18,7 @@ export function SignIn(){
       />
 
       <Text>
-        Você digitou: { Text }
+        Você digitou: { text }
       </Text>
 
     </View>
