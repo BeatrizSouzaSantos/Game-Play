@@ -1,25 +1,20 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput } from 'react-native';
+import { 
+  View, 
+  Text, 
+  Image,
+} from 'react-native';
 
+import IllustrationImg from '../../assets/illustration.png';
 import { styles } from './styles';
 
 export function SignIn(){
-  //armazena valor
   const [text, setText] = useState('');
 
-  return (
+  return(
     <View style={styles.container}> 
-      <Text>Hi Beatriz !</Text>
 
-      <TextInput 
-      style={styles.input}
-      //mostra o valor
-      onChangeText={setText}
-      />
-
-      <Text>
-        Você digitou: { text }
-      </Text>
+    <Image source={}/>
 
     </View>
   );
